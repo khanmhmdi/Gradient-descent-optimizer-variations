@@ -4,8 +4,8 @@ import numpy as np
 class Regressor:
 
     def __init__(self) -> None:
-        self.optimizer = 'adamax'
-        # str(input())
+        print('choose an algorithm : \n', '1.gd\n', "2.sgd\n", "3.sgdMomentum\n", "4.adagrad\n", "5.rmsprop\n", "6.adam\n", "7.adamax\n")
+        self.optimizer = str(input())
         self.X, self.y = self.generate_dataset(n_samples=200, n_features=1)
         n, d = self.X.shape
         self.w = np.zeros((d, 1))
@@ -202,7 +202,7 @@ class Regressor:
             ...
         """
         gradients = self.compute_gradient()
-        gradient_update = gradients / (np.sqrt(g )+ epsilon)
+        gradient_update = gradients / (np.sqrt(g) + epsilon)
 
         self.w = self.w - (gradient_update * alpha)
         return self.w
