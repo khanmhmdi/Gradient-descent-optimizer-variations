@@ -109,4 +109,6 @@ you can change parameters watch how parameters can change the process of converg
 
 ### More resoureces
 https://iopscience.iop.org/article/10.1088/1742-6596/1743/1/012002/pdf
-Algorithms for Optimization(https://amzn.to/39KZSQn)
+
+[Algorithms for Optimization ](https://amzn.to/39KZSQn)
+
