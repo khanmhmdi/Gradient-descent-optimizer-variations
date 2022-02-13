@@ -102,7 +102,9 @@ Adamax is a variant of Adam based on the infinity norm.
 <img src="https://github.com/khanmhmdi/Gradient-descent-optimizer-variations/blob/main/Gradient%20Descent%20optimizers/Gifs/rmsprop_animation.gif" alt="funny GIF" width="50%" >
 <img src="https://github.com/khanmhmdi/Gradient-descent-optimizer-variations/blob/main/Gradient%20Descent%20optimizers/Gifs/sgd_animation.gif" alt="funny GIF" width="50%" >
 <img src="https://github.com/khanmhmdi/Gradient-descent-optimizer-variations/blob/main/Gradient%20Descent%20optimizers/Gifs/adam_animation.gif" alt="funny GIF" width="50%" >
-# Aboat this project 
+
+##  Aboat this project 
+
 The purpose of this project is to learn and understand gradient descent algorithms better.
 you can run code and choose your algorithm and after execution, you will get a gif that shows how the algorithm converges to the data. (Do not change random seed)
 you can change parameters watch how parameters can change the process of convergence. 
